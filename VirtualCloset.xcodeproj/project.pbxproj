@@ -13,6 +13,7 @@
 		6A12075422EF648000CF72C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A12075222EF648000CF72C7 /* LaunchScreen.storyboard */; };
 		6A12075E22EF64BE00CF72C7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A12075D22EF64BE00CF72C7 /* CloudKit.framework */; };
 		6A12076522EF65D500CF72C7 /* Closet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076422EF65D500CF72C7 /* Closet.swift */; };
+		6A12076822EFA9FD00CF72C7 /* ClosetInventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A12076622EFA9FD00CF72C7 /* ClosetInventory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6A12075B22EF64A100CF72C7 /* VirtualCloset.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VirtualCloset.entitlements; sourceTree = "<group>"; };
 		6A12075D22EF64BE00CF72C7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6A12076422EF65D500CF72C7 /* Closet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet.swift; sourceTree = "<group>"; };
+		6A12076722EFA9FD00CF72C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VirtualCloset/View/Base.lproj/ClosetInventory.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				6A12075B22EF64A100CF72C7 /* VirtualCloset.entitlements */,
 				6A12074D22EF647C00CF72C7 /* Main.storyboard */,
+				6A12076622EFA9FD00CF72C7 /* ClosetInventory.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A12075422EF648000CF72C7 /* LaunchScreen.storyboard in Resources */,
+				6A12076822EFA9FD00CF72C7 /* ClosetInventory.storyboard in Resources */,
 				6A12075122EF648000CF72C7 /* Assets.xcassets in Resources */,
 				6A12074F22EF647C00CF72C7 /* Main.storyboard in Resources */,
 			);
@@ -203,6 +207,14 @@
 				6A12075322EF648000CF72C7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A12076622EFA9FD00CF72C7 /* ClosetInventory.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A12076722EFA9FD00CF72C7 /* Base */,
+			);
+			name = ClosetInventory.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
