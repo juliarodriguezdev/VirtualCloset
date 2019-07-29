@@ -14,6 +14,7 @@
 		6A12075E22EF64BE00CF72C7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A12075D22EF64BE00CF72C7 /* CloudKit.framework */; };
 		6A12076522EF65D500CF72C7 /* Closet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076422EF65D500CF72C7 /* Closet.swift */; };
 		6A12076822EFA9FD00CF72C7 /* ClosetInventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A12076622EFA9FD00CF72C7 /* ClosetInventory.storyboard */; };
+		6A12076A22EFAFEE00CF72C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076922EFAFEE00CF72C7 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6A12075D22EF64BE00CF72C7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6A12076422EF65D500CF72C7 /* Closet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet.swift; sourceTree = "<group>"; };
 		6A12076722EFA9FD00CF72C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VirtualCloset/View/Base.lproj/ClosetInventory.storyboard; sourceTree = "<group>"; };
+		6A12076922EFAFEE00CF72C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				6A12076422EF65D500CF72C7 /* Closet.swift */,
+				6A12076922EFAFEE00CF72C7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				6A12076522EF65D500CF72C7 /* Closet.swift in Sources */,
 				6A12074A22EF647C00CF72C7 /* AppDelegate.swift in Sources */,
+				6A12076A22EFAFEE00CF72C7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
