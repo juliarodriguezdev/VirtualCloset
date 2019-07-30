@@ -15,6 +15,8 @@
 		6A12076522EF65D500CF72C7 /* Closet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076422EF65D500CF72C7 /* Closet.swift */; };
 		6A12076822EFA9FD00CF72C7 /* ClosetInventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A12076622EFA9FD00CF72C7 /* ClosetInventory.storyboard */; };
 		6A12076A22EFAFEE00CF72C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076922EFAFEE00CF72C7 /* User.swift */; };
+		6A12076C22EFBA4000CF72C7 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076B22EFBA4000CF72C7 /* UserController.swift */; };
+		6A12077022EFC02200CF72C7 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12076F22EFC02200CF72C7 /* NotificationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		6A12076422EF65D500CF72C7 /* Closet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet.swift; sourceTree = "<group>"; };
 		6A12076722EFA9FD00CF72C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VirtualCloset/View/Base.lproj/ClosetInventory.storyboard; sourceTree = "<group>"; };
 		6A12076922EFAFEE00CF72C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6A12076B22EFBA4000CF72C7 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		6A12076F22EFC02200CF72C7 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				6A12076022EF65A000CF72C7 /* View */,
 				6A12075F22EF658100CF72C7 /* Resources */,
 				6A12076322EF65B800CF72C7 /* Model */,
+				6A12076E22EFBA4E00CF72C7 /* Model Controller */,
+				6A12077122EFC02700CF72C7 /* Helper+Extension */,
 			);
 			path = VirtualCloset;
 			sourceTree = "<group>";
@@ -106,6 +112,22 @@
 				6A12076922EFAFEE00CF72C7 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6A12076E22EFBA4E00CF72C7 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A12076B22EFBA4000CF72C7 /* UserController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		6A12077122EFC02700CF72C7 /* Helper+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6A12076F22EFC02200CF72C7 /* NotificationExtension.swift */,
+			);
+			path = "Helper+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A12077022EFC02200CF72C7 /* NotificationExtension.swift in Sources */,
 				6A12076522EF65D500CF72C7 /* Closet.swift in Sources */,
 				6A12074A22EF647C00CF72C7 /* AppDelegate.swift in Sources */,
+				6A12076C22EFBA4000CF72C7 /* UserController.swift in Sources */,
 				6A12076A22EFAFEE00CF72C7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

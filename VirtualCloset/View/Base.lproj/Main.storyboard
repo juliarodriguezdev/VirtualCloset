@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yv7-Dz-4QL">
-                                <rect key="frame" x="130" y="610" width="126" height="37"/>
+                                <rect key="frame" x="118" y="577" width="126" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign me up"/>
                             </button>
@@ -76,13 +76,13 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Gender " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEd-zU-Shq">
-                                <rect key="frame" x="131" y="396" width="113.5" height="20.5"/>
+                                <rect key="frame" x="131" y="371" width="113.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="BzT-cO-wo9">
-                                <rect key="frame" x="75" y="432.5" width="225" height="162"/>
+                                <rect key="frame" x="75" y="407.5" width="225" height="162"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nk-1V-aXs">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="162"/>
@@ -97,9 +97,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zlh-Jn-jhj">
                                 <rect key="frame" x="75" y="95" width="225" height="97"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Welcome to PurposeFull Closet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbI-YZ-5YJ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Welcome to PurposeFull Closet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbI-YZ-5YJ">
                                         <rect key="frame" x="11.5" y="0.0" width="202" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -119,10 +119,15 @@
                                     <constraint firstAttribute="width" constant="50" id="zDX-wZ-C62"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-ql-2VK">
+                                <rect key="frame" x="85" y="622" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue without signing up..."/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BzT-cO-wo9" firstAttribute="centerY" secondItem="6N4-a6-CKM" secondAttribute="centerY" constant="180" id="8VQ-bc-njd"/>
+                            <constraint firstItem="BzT-cO-wo9" firstAttribute="centerY" secondItem="6N4-a6-CKM" secondAttribute="centerY" constant="155" id="8VQ-bc-njd"/>
                             <constraint firstItem="Zlh-Jn-jhj" firstAttribute="width" secondItem="qyO-y1-QcL" secondAttribute="width" multiplier="0.6" id="A0z-WO-G09"/>
                             <constraint firstItem="Zlh-Jn-jhj" firstAttribute="centerX" secondItem="6N4-a6-CKM" secondAttribute="centerX" id="E4P-9Z-mea"/>
                             <constraint firstItem="Zlh-Jn-jhj" firstAttribute="centerY" secondItem="6N4-a6-CKM" secondAttribute="centerY" constant="-190" id="GQu-yq-7tB"/>
